@@ -23,6 +23,7 @@ public class Answer implements Question<Boolean> {
         }else {
             result = false;
         }
+        System.out.println(nameMessage);
         return result;
     }
 }

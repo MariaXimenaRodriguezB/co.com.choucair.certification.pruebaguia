@@ -19,7 +19,7 @@ public class FormInformation implements Task {
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(Enter.theValue("Maria").into(InformationUser.INPUT_FIRSTNAME),
                 Enter.theValue("Rodriguez").into(InformationUser.INPUT_LASTNAME),
-                Enter.theValue("ssssssss@hotmail.com").into(InformationUser.INPUT_EMAIL),
+                Enter.theValue("sasazes@hotmail.com").into(InformationUser.INPUT_EMAIL),
                 Click.on(InformationUser.INPUT_MONTH),
                 Click.on(InformationUser.INPUT_MONTHOPTION),
                 Click.on(InformationUser.INPUT_DAY),
